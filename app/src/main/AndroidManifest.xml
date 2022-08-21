@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AndroidManifest.xml
+Important metadata for this Project
+Created by: Lu Liu
+Created on: 2/24/2022
+Last Modified by: Lu Liu
+Last Modified on: 2/28/2022
+Assignment/Project: A590 Android Development
+Part of: ToDoMaster Project, refers to MainActivity.java
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.indiana.ll33.todomaster">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToDoMaster">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

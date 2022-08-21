@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- colors.xml
+color resource for this Project
+Created by: Lu Liu
+Created on: 02/24/2022
+Last Modified by: Lu Liu
+Last Modified on: 03/02/2022
+Assignment/Project: A590 Android Development
+Part of: ToDoMaster Project, refers to activity_main.xml
+-->
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--theme color -->
+    <color name="BlueGreen">#FF64DEC0</color>
+    <color name="DarkBlueGreen">#FF2D6978</color>
+
+</resources>
